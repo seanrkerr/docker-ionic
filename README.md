@@ -1,6 +1,13 @@
 # docker-ionic
 Just a small docker file for Ionic
 
+## before you start
+
+1. Clone this project
+2. change into the folder and create a folder myApp
+
+## setup
+
 1. install docker: https://www.docker.com/ and make sure it's running
 2. from the command line inside the folder run the following command
 docker build .
