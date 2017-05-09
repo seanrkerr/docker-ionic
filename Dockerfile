@@ -10,12 +10,12 @@ MAINTAINER SeanKerr <bullrout@gmail.com>
 LABEL Description="Ionic 2 Framework docker container"
 LABEL Volumes="/myApp"
 LABEL Ports="8100, 35729"
-LABEL Ionic_Framework_Version="2.0.0"
-LABEL Ionic_CLI_Version="2.2.1"
-LABEL Ionic_App_Lib_Version="2.2.0"
-LABEL Ionic_App_Script_Version="1.0.0"
+LABEL Ionic_Framework_Version="3.1.1"
+LABEL Ionic_CLI_Version="2.2.3"
+LABEL Ionic_App_Lib_Version="2.2.1"
+LABEL Ionic_App_Script_Version="1.3.7"
 LABEL Node_Version="7.x"
-LABEL release-date="2017-02-29"
+LABEL release-date="2017-04-28"
 LABEL is-production="False"
 
 RUN apt-get update && apt-get install -y -q curl
